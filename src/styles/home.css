@@ -1,0 +1,392 @@
+
+/* ================= HERO SECTION ================= */
+.hero {
+    width: 100%;
+   min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    overflow: hidden;
+}
+.hero-overlay {
+    width: 100%;
+    min-height: 100vh;   /* 🔥 important */
+    background: rgba(0, 0, 0, 0.55);
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.hero-content {
+    color: #ffffff;
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* Heading */
+.hero-content h1 {
+    font-size: 45px;
+    margin-bottom: 8px;
+}
+
+.hero-content p {
+    font-size: 23px;
+    margin-bottom: 22px;
+    opacity: 0.95;
+}
+
+/* ================= ACTION CARDS ================= */
+
+.action-cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    margin: 35px 0;
+    flex-wrap: wrap;
+}
+
+.action-card {
+    background: #ffffff;
+    padding: 18px 20px;
+    border-radius: 12px;
+    text-align: center;
+    text-decoration: none;
+    color: #0b2c3d;
+    width: 180px;
+    transition: 0.3s ease;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.action-card img {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+    margin-bottom: 10px;
+}
+.action-card span {
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    line-height: 1.2;
+    min-height: 40px;
+}
+
+.action-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 15px 40px rgba(0,0,0,0.15);
+}
+
+/* ================= SEARCH BOX ================= */
+
+.search-box {
+     width: 100%;
+    max-width: 650px;
+    margin: 0 auto;
+    display: flex;
+    gap: 10px;
+    background: #ffffff;
+    padding: 12px;
+    border-radius: 10px;
+}
+
+.search-box select {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #ddd;
+    font-size: 14px;
+}
+
+.btn-search {
+    padding: 12px 28px;
+    background: #f5c16c;
+    border: none;
+    border-radius: 6px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.btn-search:hover {
+    background: #e4ad4e;
+}
+/* ================= ABOUT SECTION ================= */
+
+.about {
+    background: #f0f6fa;   
+    padding: 50px 0;
+}
+
+.about h2 {
+    text-align: center;
+    font-size: 42px;
+    margin-bottom: 60px;
+    color: #0b2c3d;
+}
+
+.about-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    width: 90%;
+    margin: auto;
+}
+
+.about-image img {
+    width: 450px;
+    height: 380px;
+    object-fit: cover;
+    border-radius: 14px;
+    box-shadow: 0 20px 50px rgba(0,0,0,0.2);
+}
+
+.about-text {
+    max-width: 650px;
+}
+
+.about-text p {
+    font-size: 16px;
+    line-height: 1.8;
+    color: #555;
+    margin-bottom: 20px;
+}
+/* ================= WHY CHOOSE SECTION ================= */
+
+.why-choose {
+    padding: 40px 0;
+    background: #e6eef5;
+}
+
+.why-choose h2 {
+    font-size: 42px;
+    color: #0b2c3d;
+    font-weight: 700;
+    margin-bottom: 40px;
+    text-align: center;
+}
+/* ================= WHY CHOOSE SECTION ================= */
+
+.why-choose {
+    padding: 60px 0;
+    background: #e6eef5;
+}
+
+.why-choose h2 {
+    font-size: 42px;
+    color: #0b2c3d;
+    font-weight: 700;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+/* ACCORDION WRAPPER */
+.accordion {
+    margin: 0 auto;
+    width: 80%;
+}
+
+/* EACH ITEM */
+.accordion-item {
+    margin-bottom: 18px;
+    border-radius: 12px;
+    overflow: hidden;
+    background: #ffffff;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.06);
+    transition: all 0.3s ease;
+}
+
+.accordion-item:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 12px 35px rgba(0, 0, 0, 0.1);
+}
+
+/* HEADER BUTTON */
+/* HEADER BUTTON */
+.accordion-header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 20px 25px;
+    background: #ffffff;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 18px;
+    color: #0b2c3d;
+    text-align: left;
+}
+
+/* Make title take full space */
+.accordion-header span:first-child {
+    flex: 1;
+}
+
+/* 🔥 FIXED ARROW */
+/* .accordion-header .arrow {
+    font-size: 22px;              
+    font-weight: bold;
+    color: #0b2c3d;              
+    margin-left: 15px;
+    transition: transform 0.3s ease, color 0.3s ease;
+} */
+
+/* Active header style */
+.accordion-header.active {
+    background: #0b2c3d;
+    color: #ffffff;
+}
+
+/* Arrow color when active */
+/* .accordion-header.active .arrow {
+    color: #ffffff;
+    transform: rotate(180deg);
+} */
+
+/* CONTENT */
+.accordion-content {
+    overflow: hidden;
+    background: #f9fbfd;
+
+    transform: scaleY(0);
+    transform-origin: top;
+    opacity: 0;
+    height: 0;
+
+    transition: transform 0.45s ease, opacity 0.35s ease;
+}
+
+/* Open state */
+.accordion-content.open {
+    transform: scaleY(1);
+    opacity: 1;
+    height: auto;
+    padding: 22px 25px;
+
+    transition: transform 0.35s ease, opacity 0.25s ease;
+}
+
+.accordion-content p {
+    font-size: 15px;
+    line-height: 1.8;
+    color: #555;
+}
+
+/* Smooth Fade Animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-5px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+/* ================= RESPONSIVE ================= */
+
+@media (max-width: 768px) {
+
+    .why-choose h2 {
+        font-size: 28px;
+    }
+
+    .accordion-header {
+        font-size: 15px;
+        padding: 15px 18px;
+    }
+
+    .accordion-content p {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .hero-overlay {
+        padding-top: 80px;
+        align-items: center;   /* center content properly */
+    }
+
+    .hero-content h1 {
+        font-size: 26px;
+    }
+
+    .hero-content p {
+        font-size: 16px;
+    }
+
+    .action-card {
+        width: 140px;
+        padding: 15px;
+    }
+
+    .action-card img {
+        width: 60px;
+        height: 60px;
+    }
+
+    .action-card span {
+        font-size: 16px;
+    }
+}
+
+/* ================= SEARCH BOX MOBILE FIX ================= */
+@media (max-width: 768px) {
+
+    .search-box {
+        flex-direction: column;   /* stack vertically */
+        gap: 12px;
+        width: 90%;
+        padding: 15px;
+        border-radius: 12px;
+    }
+
+    .search-box select {
+        width: 100%;
+        padding: 12px;
+        font-size: 15px;
+    }
+
+    .btn-search {
+        width: 100%;
+        padding: 14px;
+        font-size: 16px;
+    }
+}
+/* ================= ABOUT RESPONSIVE FIX ================= */
+
+@media (max-width: 768px) {
+
+    .about-wrapper {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 30px;
+    }
+
+    .about-image img {
+        width: 100%;
+        max-width: 350px;
+        height: auto;
+    }
+
+    .about-text {
+        width: 100%;
+        max-width: 100%;
+        padding: 0 20px;
+    }
+
+    .about-text p {
+        font-size: 15px;
+        line-height: 1.7;
+    }
+}
