@@ -280,6 +280,17 @@
     color: #555;
 }
 
+.accordion-header{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+}
+
+.accordion-icon{
+  font-size:20px;
+  font-weight:bold;
+}
+
 /* Smooth Fade Animation */
 @keyframes fadeIn {
     from {

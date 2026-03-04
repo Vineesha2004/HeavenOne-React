@@ -205,14 +205,16 @@ function Home() {
               <div key={index} className="accordion-item">
 
                 <button
-                  className={`accordion-header ${activeIndex === index ? "active" : ""}`}
-                  onClick={() =>
-                    setActiveIndex(activeIndex === index ? null : index)
-                  }
-                >
-                  <span className="accordion-title">{item.title}</span>
-                </button>
-
+    className={`accordion-header ${activeIndex === index ? "active" : ""}`}
+  onClick={() =>
+    setActiveIndex(activeIndex === index ? null : index)
+  }
+>
+  <span className="accordion-title">{item.title}</span>
+  <span className="accordion-icon">
+    {activeIndex === index ? "−" : "+"}
+  </span>
+</button>
                 <div
                   className={`accordion-content ${activeIndex === index ? "open" : ""}`}
                 >
