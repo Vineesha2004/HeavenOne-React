@@ -19,7 +19,8 @@ function Completed() {
     facing: [],
     city: searchData.city ? [searchData.city] : []
   });
-
+   
+  
   // 🔥 Filtering logic
   const completedProjects = projects
     .filter((p) => p.status === "completed")
