@@ -1,57 +1,72 @@
-HeavenOne Real Estate Website (React)
+# Aksharaa Polytechnic Website (React)
 
-A fully responsive real estate website built using React and Vite, focused on delivering a modern UI, structured property listings, and a smooth user experience across devices. It showcases buying, selling, renting, and investment services with clean design and practical web development practices.
-
----
-Features
-
-Responsive design (mobile, tablet, desktop)
-Modern and clean UI
-Smooth navigation using React Router
-Property filtering system (type, city, facing)
-Dynamic pages (Buy, Sell, Rent, Projects, Advisor)
-Interactive components (accordion, gallery lightbox)
-Organized layout and optimized performance
+A fully responsive college website built using React and Vite, focused on a clean UI, structured content, and smooth user experience across devices. It showcases institutional information, academic offerings, and practical web development design.
 
 ---
 
-Tech Stack
+## Features
+
+- **Responsive Design**  
+  Fully optimized for mobile, tablet, and desktop devices, ensuring a consistent user experience across all screen sizes.
+
+- **Clean and Modern UI**  
+  Minimal and visually appealing interface with proper spacing, typography, and color usage for better readability.
+
+- **Smooth Navigation**  
+  Seamless page transitions and easy-to-use navigation structure for accessing different sections quickly.
+
+- **Organized Content Sections**  
+  Well-structured layout for displaying college information such as courses, departments, facilities, and contact details.
+
+- **Optimized Performance**  
+  Fast loading and efficient rendering using Vite and optimized React components.
+
+---
+
+## Tech Stack
 
 React.js, JavaScript, HTML5, CSS3, Vite
 
 ---
-Project Structure
 
-HEAVENONE-REACT/
-│── heavenOne-react/
-│ │── dist/
-│ │── node_modules/
-│ │── public/
-│ │── src/
-│ │ ├── assets/
-│ │ ├── components/
-│ │ ├── data/
-│ │ ├── pages/
-│ │ ├── styles/
-│ │ ├── App.css
-│ │ ├── App.jsx
-│ │ ├── index.css
-│ │ └── main.jsx
-│ │── .gitignore
-│ │── eslint.config.js
-│ │── index.html
-│ │── package.json
-│ │── package-lock.json
-│ │── vite.config.js
-│ │── README.md
+## Project Structure
 
-Live Demo
+```
+AKSHARAA POLYTECHNIC WEBSITE/
+│── dist/
+│── node_modules/
+│── public/
+│   ├── images/
+│   └── vite.svg
+│── src/
+│   ├── components/
+│   ├── pages/
+│   ├── styles/
+│   ├── App.css
+│   ├── App.jsx
+│   ├── index.css
+│   └── main.jsx
+│── .gitignore
+│── eslint.config.js
+│── index.html
+│── package.json
+│── package-lock.json
+│── vite.config.js
+│── README.md
+```
 
-heavenone.netlify.app
 ---
 
-Objective
+## Live Demo
 
-To build a modern, responsive, and user-friendly real estate platform that allows users to explore properties, apply filters, and navigate through different services like buying, selling, renting, and investment advisory with ease.
+Netlify : heavenone.netlify.app
+
 ---
-If you find this project useful, consider giving it a star. ⭐
+
+## Objective
+
+To build a responsive and user-friendly college website presenting academic and institutional information effectively.
+
+---
+
+If you find this project useful, consider giving it a star.
